@@ -1,23 +1,11 @@
 #include "1.twoSum.h"
+#include "2.addTwoNumbers.h"
 
 int main()
 {
-	twoSum::Soluation sol1;
+	//twoSum::test();
 
-	vector<int> test;
-	test.push_back(11);
-	test.push_back(22);
-	test.push_back(33);
-	test.push_back(44);
-	test.push_back(55);
-	test.push_back(66);
-
-	vector<int> result = sol1.twoSum(test, 44 + 66);
-
-	for (auto var : result)
-	{
-		std::cout << var << '\n';
-	}
+	addTwoNumbers::test();
 
 	return 0;
 }
