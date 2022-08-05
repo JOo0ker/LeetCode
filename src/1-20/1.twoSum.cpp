@@ -1,6 +1,6 @@
 #include "1.twoSum.h"
 
-vector<int> twoSum::Soluation::twoSum(vector<int>& nums, int target)
+vector<int> twoSum::Solution::twoSum(vector<int>& nums, int target)
 	{
 	vector<int>::iterator it = nums.begin();
 	for (; it != nums.end(); ++it)
@@ -22,7 +22,7 @@ vector<int> twoSum::Soluation::twoSum(vector<int>& nums, int target)
 
 void twoSum::test()
 {
-	twoSum::Soluation sol1;
+	twoSum::Solution sol1;
 
 	vector<int> test;
 	test.push_back(11);

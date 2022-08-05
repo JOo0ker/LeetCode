@@ -5,7 +5,6 @@
 namespace addTwoNumbers {
 	class Solution;
 	void test();
-	void se();
 }
 
 struct ListNode {

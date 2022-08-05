@@ -1,6 +1,7 @@
 #include "1.twoSum.h"
 #include "2.addTwoNumbers.h"
 #include "3.lengthOfLongestSubstring.h"
+#include "4.findMedianSortedArrays.h"
 
 int main()
 {
@@ -8,12 +9,10 @@ int main()
 
 	//addTwoNumbers::test();
 
-	lengthOfLongestSubstring::test();
+	//lengthOfLongestSubstring::test();
 
-	//string ss = "123115412sadfzsdz";
+	findMedianSortedArrays::test();
 
-	//ss.erase(0,ss.find("5"));
-	//std::cout << ss;
 
 	return 0;
 }

@@ -1,6 +1,6 @@
 #include "3.lengthOfLongestSubstring.h"
 
-int lengthOfLongestSubstring::Soluation::lengthOfLongestSubstring(string s)
+int lengthOfLongestSubstring::Solution::lengthOfLongestSubstring(string s)
 {
 	size_t totalLength = s.length();
 	if (!totalLength) return 0;
@@ -26,7 +26,7 @@ int lengthOfLongestSubstring::Soluation::lengthOfLongestSubstring(string s)
 	return m_Result;
 }
 
-int lengthOfLongestSubstring::Soluation::check(char c)
+int lengthOfLongestSubstring::Solution::check(char c)
 {
 	return static_cast<int>(m_SubString.find_first_of(c));
 }
@@ -39,7 +39,7 @@ void lengthOfLongestSubstring::test()
 	string s2 = "bbbbb";
 	string s3 = "abcabcbb";
 
-	lengthOfLongestSubstring::Soluation sol3;
+	lengthOfLongestSubstring::Solution sol3;
 	int Result = sol3.lengthOfLongestSubstring(s0);
 	std::cout << Result << '\n';
 	Result = sol3.lengthOfLongestSubstring(s1);

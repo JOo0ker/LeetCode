@@ -6,11 +6,11 @@
 using std::string;
 
 namespace lengthOfLongestSubstring {
-	class Soluation;
+	class Solution;
 	void test();
 }
 
-class lengthOfLongestSubstring::Soluation
+class lengthOfLongestSubstring::Solution
 {
 public:
 	int m_Result = 0;

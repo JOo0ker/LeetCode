@@ -6,11 +6,11 @@
 using std::vector;
 
 namespace twoSum {
-	class Soluation;
+	class Solution;
 	void test();
 }
 
-class twoSum::Soluation
+class twoSum::Solution
 {
 public:
 	vector<int> m_Result;
