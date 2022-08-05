@@ -31,7 +31,9 @@
 *.out
 *.app
 
-# .vs 文件夹
+# VS
+x64
+x32
 .vs
 *.vcxproj
 *.filters
