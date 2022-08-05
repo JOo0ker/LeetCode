@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# .vs 文件夹
+.vs
+*.vcxproj
+*.filters
+*.user
