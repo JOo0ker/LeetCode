@@ -35,6 +35,5 @@
 x64
 x32
 .vs
-*.vcxproj
 *.filters
 *.user
