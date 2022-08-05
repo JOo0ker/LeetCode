@@ -141,11 +141,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\1-20\3.lengthOfLongestSubstring.cpp" />
+    <ClCompile Include="src\1-20\2.addTwoNumbers.cpp" />
+    <ClCompile Include="src\1-20\1.twoSum.cpp" />
     <ClCompile Include="head\1.twoSum.h" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="head\2.addTwoNumbers.h" />
+    <ClInclude Include="head\3.lengthOfLongestSubstring.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
