@@ -2,6 +2,7 @@
 #include "2.addTwoNumbers.h"
 #include "3.lengthOfLongestSubstring.h"
 #include "4.findMedianSortedArrays.h"
+#include "5.longestPalindrome.h"
 
 int main()
 {
@@ -11,8 +12,9 @@ int main()
 
 	//lengthOfLongestSubstring::test();
 
-	findMedianSortedArrays::test();
+	//findMedianSortedArrays::test();
 
+	longestPalindrome::test();
 
 	return 0;
 }

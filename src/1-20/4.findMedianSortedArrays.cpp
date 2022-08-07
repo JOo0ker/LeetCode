@@ -28,6 +28,14 @@ double findMedianSortedArrays::Solution::findMedianSortedArrays(vector<int>& num
 	return m_Result;
 }
 
+double findMedianSortedArrays::Solution::findMedianSortedArrays2(vector<int>& nums1, vector<int>& nums2)
+{
+	size_t size_1_half = nums1.size() / 2;
+	size_t size_2_half = nums2.size() / 2;
+
+	return 0.0;
+}
+
 void findMedianSortedArrays::test()
 {
 	vector<int> test1;

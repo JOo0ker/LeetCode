@@ -145,13 +145,15 @@
     <ClCompile Include="src\1-20\2.addTwoNumbers.cpp" />
     <ClCompile Include="src\1-20\1.twoSum.cpp" />
     <ClCompile Include="head\1.twoSum.h" />
-    <ClCompile Include="src\4.findMedianSortedArrays.cpp" />
+    <ClCompile Include="src\1-20\5.longestPalindrome.cpp" />
+    <ClCompile Include="src\1-20\4.findMedianSortedArrays.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="head\2.addTwoNumbers.h" />
     <ClInclude Include="head\3.lengthOfLongestSubstring.h" />
     <ClInclude Include="head\4.findMedianSortedArrays.h" />
+    <ClInclude Include="head\5.longestPalindrome.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
