@@ -15,21 +15,24 @@ string convert::Solution::convert(string s, int numRows)
 	tmpStr.resize(s.size());
 
 	vector<int> length;
-
-	for (int i = 1; i < numRows - 1; i++)
+	length.push_back(0);
+	for (size_t i = 0; i < (size_t)numRows - 1 ; i++)
 	{
-		length.push_back(nums * 2 + (bool)(remaing >= i) +(bool)(remaing >= (2 * numRows - i)));
-	}
-	length.push_back(nums + remaing >= numRows);
-
-	for (size_t i = 0; i < s.size();)
-	{
-		for (size_t var : length)
-		{
-			tmpStr[i + i / (size_t)numRows + var] = s[i++];
-		}
+		int tmp1 = nums * ((i == 0 || i == (size_t)numRows - 1 ? 1 : 2));
+		int tmp2 = (bool)(remaing > i);
+		int tmp3 = (bool)(remaing > (cycle - i));
+		length.push_back(tmp1 + tmp2 + tmp3 + length.back());
 	}
 
+	for (size_t i = 0; i < s.size(); i++)
+	{
+		int line = i % cycle;
+		if (line >= numRows)line = cycle - line;
+
+		tmpStr[length[line]++] = s[i];
+	}
+	m_Result.clear();
+	m_Result.append(tmpStr);
 
 	return m_Result;
 }
