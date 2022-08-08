@@ -3,6 +3,7 @@
 #include "3.lengthOfLongestSubstring.h"
 #include "4.findMedianSortedArrays.h"
 #include "5.longestPalindrome.h"
+#include "6.convert.h"
 
 int main()
 {
@@ -14,7 +15,9 @@ int main()
 
 	//findMedianSortedArrays::test();
 
-	longestPalindrome::test();
+	//longestPalindrome::test();
+
+	convert::test();
 
 	return 0;
 }

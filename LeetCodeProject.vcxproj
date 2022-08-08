@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\1-20\6.convert.cpp" />
     <ClCompile Include="src\1-20\3.lengthOfLongestSubstring.cpp" />
     <ClCompile Include="src\1-20\2.addTwoNumbers.cpp" />
     <ClCompile Include="src\1-20\1.twoSum.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="head\6.convert.h" />
     <ClInclude Include="head\2.addTwoNumbers.h" />
     <ClInclude Include="head\3.lengthOfLongestSubstring.h" />
     <ClInclude Include="head\4.findMedianSortedArrays.h" />
