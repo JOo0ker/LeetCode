@@ -4,6 +4,7 @@
 #include "4.findMedianSortedArrays.h"
 #include "5.longestPalindrome.h"
 #include "6.convert.h"
+#include "7.reverse.h"
 
 int main()
 {
@@ -17,7 +18,9 @@ int main()
 
 	//longestPalindrome::test();
 
-	convert::test();
+	//convert::test();
+
+	reverse::test();
 
 	return 0;
 }

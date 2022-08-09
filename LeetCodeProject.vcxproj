@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\1-20\7.reverse.cpp" />
     <ClCompile Include="src\1-20\6.convert.cpp" />
     <ClCompile Include="src\1-20\3.lengthOfLongestSubstring.cpp" />
     <ClCompile Include="src\1-20\2.addTwoNumbers.cpp" />
@@ -156,6 +157,7 @@
     <ClInclude Include="head\3.lengthOfLongestSubstring.h" />
     <ClInclude Include="head\4.findMedianSortedArrays.h" />
     <ClInclude Include="head\5.longestPalindrome.h" />
+    <ClInclude Include="head\7.reverse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
