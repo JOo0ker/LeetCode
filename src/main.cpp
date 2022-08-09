@@ -5,6 +5,7 @@
 #include "5.longestPalindrome.h"
 #include "6.convert.h"
 #include "7.reverse.h"
+#include "8.myAtoi.h"
 
 int main()
 {
@@ -20,7 +21,9 @@ int main()
 
 	//convert::test();
 
-	reverse::test();
+	//reverse::test();
+
+	myAtoi::test();
 
 	return 0;
 }
