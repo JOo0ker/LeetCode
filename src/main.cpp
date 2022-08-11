@@ -7,6 +7,7 @@
 #include "7.reverse.h"
 #include "8.myAtoi.h"
 #include "9.isPalindrome.h"
+#include "11.maxArea.h"
 
 int main()
 {
@@ -26,7 +27,9 @@ int main()
 
 	//myAtoi::test();
 
-	isPalindrome::test();
+	//isPalindrome::test();
+
+	maxArea::test();
 
 	return 0;
 }
