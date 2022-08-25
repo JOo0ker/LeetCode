@@ -1,14 +1,4 @@
-#include "1.twoSum.h"
-#include "2.addTwoNumbers.h"
-#include "3.lengthOfLongestSubstring.h"
-#include "4.findMedianSortedArrays.h"
-#include "5.longestPalindrome.h"
-#include "6.convert.h"
-#include "7.reverse.h"
-#include "8.myAtoi.h"
-#include "9.isPalindrome.h"
-#include "10.isMatch.h"
-#include "11.maxArea.h"
+#include "0.allHeads.h"
 
 int main()
 {
@@ -30,9 +20,11 @@ int main()
 
 	//isPalindrome::test();
 
-	isMatch::test();
+	//isMatch::test();
 
 	//maxArea::test();
+
+	intToRoman::test();
 
 	return 0;
 }

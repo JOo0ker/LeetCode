@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\1-20\12.intToRoman.cpp" />
     <ClCompile Include="src\1-20\10.isMatch.cpp" />
     <ClCompile Include="src\1-20\11.maxArea.cpp" />
     <ClCompile Include="src\1-20\9.isPalindrome.cpp" />
@@ -156,6 +157,8 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="head\0.allHeads.h" />
+    <ClInclude Include="head\12.intToRoman.h" />
     <ClInclude Include="head\10.isMatch.h" />
     <ClInclude Include="head\11.maxArea.h" />
     <ClInclude Include="head\9.isPalindrome.h" />
