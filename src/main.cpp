@@ -24,7 +24,9 @@ int main()
 
 	//maxArea::test();
 
-	intToRoman::test();
+	//intToRoman::test();
+
+	romanToInt::test();
 
 	return 0;
 }
